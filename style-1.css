@@ -72,3 +72,28 @@ body {
                 font-size: 1.5rem;
             }
         }
+        .personal-info-section {
+            display: flex;
+            align-items: center; /* Aligns items to the top */
+            margin: 20px 0; /* Add some space around the section */
+        }
+        
+        .photo-container {
+            margin-right: 50px; /* Space between the photo and text */
+        }
+        
+        .profile-photo {
+            width: 250px; 
+            height: 300px;; 
+        }
+        
+        .info-container {
+            flex: 1; /* This allows the text container to take the remaining space */
+        }
+        .certificate-photo {
+            width: 225px; 
+            height: 300px;
+        }
+        .Projects-photo{
+            width: 400px; 
+        }
